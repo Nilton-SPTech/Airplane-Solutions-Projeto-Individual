@@ -1,0 +1,13 @@
+version: '3.9'
+services: 
+  projetoIndividual: 
+    image: mysql:5.7
+    container_name: projetoIndividual
+    environment:
+        MYSQL_ROOT_PASSWORD: 1234
+        MYSQL_DATABASE: projetoIndividual
+        MYSQL_USER: admin
+        MYSQL_PASSWORD: 1234
+    ports:
+      - '3306:3306'
+    
