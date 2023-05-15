@@ -1,0 +1,5 @@
+com\mycompany\projeto\individual\airplane\controller\TotemController.class
+com\mycompany\projeto\individual\airplane\ConexaoBancoLocal.class
+com\mycompany\projeto\individual\airplane\model\Totem.class
+rowMapper\TotemRowMapper.class
+com\mycompany\projeto\individual\airplane\App.class
