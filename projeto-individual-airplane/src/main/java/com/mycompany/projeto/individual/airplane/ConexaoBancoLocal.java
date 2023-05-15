@@ -12,7 +12,7 @@ public class ConexaoBancoLocal {
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/projetoIndividual?autoReconnect=true&useSSL=false");
-        dataSource.setUsername("admin");
+        dataSource.setUsername("root");
         dataSource.setPassword("1234");
         
         this.connection = new JdbcTemplate(dataSource);
