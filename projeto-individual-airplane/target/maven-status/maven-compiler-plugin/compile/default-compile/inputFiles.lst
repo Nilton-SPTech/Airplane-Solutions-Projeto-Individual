@@ -1,5 +1,11 @@
-C:\Users\NiltonGabrielRamosGo\OneDrive - Yandeh\Documentos\NetBeansProjects\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\ConexaoBancoLocal.java
-C:\Users\NiltonGabrielRamosGo\OneDrive - Yandeh\Documentos\NetBeansProjects\projeto-individual-airplane\src\main\java\rowMapper\TotemRowMapper.java
-C:\Users\NiltonGabrielRamosGo\OneDrive - Yandeh\Documentos\NetBeansProjects\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\model\Totem.java
-C:\Users\NiltonGabrielRamosGo\OneDrive - Yandeh\Documentos\NetBeansProjects\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\App.java
-C:\Users\NiltonGabrielRamosGo\OneDrive - Yandeh\Documentos\NetBeansProjects\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\controller\TotemController.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\controllers\ShowDisco.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\controllers\Totem.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\models\Util.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\App.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\controllers\ShowCPU.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\models\Connection.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\controllers\ComponenteTotem.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\models\TotemCRUD.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\controllers\ShowMemoria.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\controllers\ShowRede.java
+C:\Users\NiltonGabrielRamosGo\Videos\Airplane-Solutions-Projeto-Individual\projeto-individual-airplane\src\main\java\com\mycompany\projeto\individual\airplane\models\RegistroTotemCRUD.java

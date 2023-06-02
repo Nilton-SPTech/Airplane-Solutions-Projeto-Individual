@@ -1,5 +1,12 @@
-com\mycompany\projeto\individual\airplane\controller\TotemController.class
-com\mycompany\projeto\individual\airplane\ConexaoBancoLocal.class
-com\mycompany\projeto\individual\airplane\model\Totem.class
-rowMapper\TotemRowMapper.class
-com\mycompany\projeto\individual\airplane\App.class
+com\mycompany\projeto\individual\airplane\controllers\ShowDisco.class
+com\mycompany\projeto\individual\airplane\models\Connection.class
+com\mycompany\projeto\individual\airplane\models\TotemCRUD.class
+com\mycompany\projeto\individual\airplane\controllers\ShowMemoria.class
+App.class
+com\mycompany\projeto\individual\airplane\controllers\Totem.class
+com\mycompany\projeto\individual\airplane\controllers\ShowCPU.class
+com\mycompany\projeto\individual\airplane\controllers\ShowRede.class
+com\mycompany\projeto\individual\airplane\models\RegistroTotemCRUD.class
+com\mycompany\projeto\individual\airplane\models\RegistroTotemCRUD$1.class
+com\mycompany\projeto\individual\airplane\controllers\ComponenteTotem.class
+com\mycompany\projeto\individual\airplane\models\Util.class
