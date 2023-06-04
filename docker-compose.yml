@@ -13,7 +13,7 @@ services:
         MYSQL_ROOT_host: "%"
     ports:
       - '3306:3306'
-      network:
+      networks:
         app_net:
           ipv4_address: 172.20.0.2
 
@@ -31,7 +31,7 @@ services:
       - DATABASE_USER=admin
       - DATABASE_PASSWORD=1234
       - DATABASE_NAME=bdAirplaneSolutions
-    network:
+    networks:
       app_net:
         ipv4_address: 172.20.0.3
 
