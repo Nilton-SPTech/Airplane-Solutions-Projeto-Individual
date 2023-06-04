@@ -1,13 +1,46 @@
 version: '3.9'
+
 services: 
-  projetoIndividual: 
+  AirplaneSolutionsDB: 
     image: mysql:5.7
-    container_name: projetoIndividual
+    container_name: AirplaneSolutionsDB
+    command: --default-authentication-plugin=mysql_native_password
     environment:
         MYSQL_ROOT_PASSWORD: 1234
-        MYSQL_DATABASE: projetoIndividual
+        MYSQL_DATABASE: bdAirplaneSolutions
         MYSQL_USER: admin
         MYSQL_PASSWORD: 1234
+        MYSQL_ROOT_host: "%"
     ports:
       - '3306:3306'
+      network:
+        app_net:
+          ipv4_address: 172.20.0.2
+
+  JavaJar:
+    image: niltongabriel/airplane_solutions_jar:tag
+    container_name: AirplaneSolutionsJAR
+    command: ["java", "-jar", "/app/airplaneSolutions.jar"]
+    stdin_open: true
+    tty: true
+    depends_on:
+      -AirplaneSolutionsDB
+    environment:
+      - DATABASE_HOST=bdAirplaneSolutions
+      - DATABASE_PORT=3306
+      - DATABASE_USER=admin
+      - DATABASE_PASSWORD=1234
+      - DATABASE_NAME=bdAirplaneSolutions
+    network:
+      app_net:
+        ipv4_address: 172.20.0.3
+
+networks:
+  app_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/16
+
+
     
